@@ -10,29 +10,19 @@ export default function Home() {
           <nav>
             <ul className="flex space-x-8">
               <li>
-                <Link href="#"
-                   className="text-black">Home
-                </Link>
+                <Link href="#" className="text-black">Home</Link>
               </li>
               <li>
-                <Link href="#"
-                   className="text-black">Deals
-                </Link>
+                <Link href="#" className="text-black">Deals</Link>
               </li>
               <li>
-                <Link href="#"
-                   className="text-black">New Arrivals
-                </Link>
+                <Link href="#" className="text-black">New Arrivals</Link>
               </li>
               <li>
-                <Link href="#"
-                   className="text-black">Packages
-                </Link>
+                <Link href="#" className="text-black">Packages</Link>
               </li>
               <li>
-                <Link href="#"
-                   className="text-black">Sign in
-                </Link>
+                <Link href="#" className="text-black">Sign in</Link>
               </li>
               <button className="bg-black text-white py-2 px-4 rounded">Log In</button>
             </ul>
@@ -48,10 +38,9 @@ export default function Home() {
 
         {/* Middle Section with Gray Box */}
         <div className="text-center">
-
           {/* Small Gray Box */}
-          <div className="bg-gray-100  h-60 mx-9 mb-12 rounded">
-            <Image src="/images (9).png" alt="" width={500} height={600} /> 
+          <div className="bg-gray-100 h-60 mx-9 mb-12 rounded">
+            <Image src="/images (9).png" alt="Small Gray Box" width={500} height={600} /> 
           </div>
           <h2 className="text-6xl font-bold">ULTIMATE SALE</h2>
           <button className="mt-8 py-3 px-6 bg-black text-white text-lg rounded">Shop Collection</button>
@@ -61,115 +50,112 @@ export default function Home() {
           <Image src="/image 227 (1).png" alt="Woman Standing" width={500} height={500} className="w-full h-96" />
         </div>
       </section>
+
       <section className="flex justify-center space-x-12 py-8 bg-gray-200">
-  <p className="text-2xl font-semibold tracking-wider uppercase text-gray-800">CHANEL</p>
-  <p className="text-2xl font-semibold tracking-wider lowercase text-gray-800">LOUIS VUITTON</p>
-  <p className="text-2xl font-semibold tracking-wider uppercase text-gray-800">PRADA</p>
-  <p className="text-2xl font-semibold tracking-wider lowercase text-gray-800">Calvin Klein</p>
-  <p className="text-2xl font-semibold tracking-wider uppercase text-gray-800">DENIM</p>
-</section>
+        <p className="text-2xl font-semibold tracking-wider uppercase text-gray-800">CHANEL</p>
+        <p className="text-2xl font-semibold tracking-wider lowercase text-gray-800">LOUIS VUITTON</p>
+        <p className="text-2xl font-semibold tracking-wider uppercase text-gray-800">PRADA</p>
+        <p className="text-2xl font-semibold tracking-wider lowercase text-gray-800">Calvin Klein</p>
+        <p className="text-2xl font-semibold tracking-wider uppercase text-gray-800">DENIM</p>
+      </section>
 
-<section className="bg-white py-16 px-8">
-  <div className="container mx-auto flex space-x-12 items-center">
-    
-    {/* Left Section */}
-    <div className="w-1/2">
-      <h2 className="text-4xl font-bold mb-4">Deals Of The Month</h2>
-      <p className="text-gray-600 mb-6">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Scelerisque duis ultrices sollicitudin aliquam sem.
-      </p>
-      
-      <button className="bg-black text-white py-3 px-6 rounded shadow-md">Buy Now</button>
+      <section className="bg-white py-16 px-8">
+        <div className="container mx-auto flex space-x-12 items-center">
+          {/* Left Section */}
+          <div className="w-1/2">
+            <h2 className="text-4xl font-bold mb-4">Deals Of The Month</h2>
+            <p className="text-gray-600 mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Scelerisque duis ultrices sollicitudin aliquam sem.
+            </p>
+            
+            <button className="bg-black text-white py-3 px-6 rounded shadow-md">Buy Now</button>
 
-      <div className="mt-8">
-        <p className="text-lg font-semibold mb-4">Hurry, Before It’s Too Late!</p>
-        {/* Countdown Timer */}
-        <div className="flex space-x-4">
-          <div className="bg-gray-100 p-4 text-center rounded">
-            <p className="text-2xl font-bold">02</p>
-            <p className="text-sm text-gray-600">Days</p>
+            <div className="mt-8">
+              <p className="text-lg font-semibold mb-4">Hurry, Before It&rsquo;s Too Late!</p>
+              {/* Countdown Timer */}
+              <div className="flex space-x-4">
+                <div className="bg-gray-100 p-4 text-center rounded">
+                  <p className="text-2xl font-bold">02</p>
+                  <p className="text-sm text-gray-600">Days</p>
+                </div>
+                <div className="bg-gray-100 p-4 text-center rounded">
+                  <p className="text-2xl font-bold">06</p>
+                  <p className="text-sm text-gray-600">Hr</p>
+                </div>
+                <div className="bg-gray-100 p-4 text-center rounded">
+                  <p className="text-2xl font-bold">05</p>
+                  <p className="text-sm text-gray-600">Mins</p>
+                </div>
+                <div className="bg-gray-100 p-4 text-center rounded">
+                  <p className="text-2xl font-bold">30</p>
+                  <p className="text-sm text-gray-600">Sec</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="bg-gray-100 p-4 text-center rounded">
-            <p className="text-2xl font-bold">06</p>
-            <p className="text-sm text-gray-600">Hr</p>
-          </div>
-          <div className="bg-gray-100 p-4 text-center rounded">
-            <p className="text-2xl font-bold">05</p>
-            <p className="text-sm text-gray-600">Mins</p>
-          </div>
-          <div className="bg-gray-100 p-4 text-center rounded">
-            <p className="text-2xl font-bold">30</p>
-            <p className="text-sm text-gray-600">Sec</p>
+
+          {/* Right Section - Carousel of Deals */}
+          <div className="w-1/2">
+            <div className="flex space-x-4">
+              {/* Card 1 */}
+              <div className="bg-gray-100 rounded-lg p-4 w-1/3 shadow-md">
+                <Image 
+                  src="/image (3).png" 
+                  alt="Spring Sale"
+                  width={300}
+                  height={400}
+                  className="rounded-lg object-cover"
+                />
+                <div className="mt-4">
+                  <p className="text-gray-500 text-sm">01 — Spring Sale</p>
+                  <p className="text-lg font-bold">30% OFF</p>
+                </div>
+              </div>
+
+              {/* Card 2 */}
+              <div className="bg-gray-100 rounded-lg p-4 w-1/3 shadow-md">
+                <Image 
+                  src="/image (2).png" 
+                  alt="Summer Sale"
+                  width={300}
+                  height={400}
+                  className="rounded-lg object-cover"
+                />
+                <div className="mt-4">
+                  <p className="text-gray-500 text-sm">02 — Summer Sale</p>
+                  <p className="text-lg font-bold">50% OFF</p>
+                </div>
+              </div>
+
+              {/* Card 3 */}
+              <div className="bg-gray-100 rounded-lg p-4 w-1/3 shadow-md">
+                <Image 
+                  src="/image (1).png" 
+                  alt="Fall Sale"
+                  width={300}
+                  height={400}
+                  className="rounded-lg object-cover"
+                />
+                <div className="mt-4">
+                  <p className="text-gray-500 text-sm">03 — Fall Sale</p>
+                  <p className="text-lg font-bold">40% OFF</p>
+                </div>
+              </div>
+            </div>
+            
+            {/* Carousel Controls */}
+            <div className="flex justify-center mt-4 space-x-2">
+              <button className="p-2 bg-gray-300 rounded-full shadow-md">
+                <span>&lt;</span>
+              </button>
+              <button className="p-2 bg-gray-300 rounded-full shadow-md">
+                <span>&gt;</span>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    
-    {/* Right Section - Carousel of Deals */}
-    <div className="w-1/2">
-      <div className="flex space-x-4">
-        
-        {/* Card 1 */}
-        <div className="bg-gray-100 rounded-lg p-4 w-1/3 shadow-md">
-          <Image 
-            src="/image (3).png" 
-            alt="Spring Sale"
-            width={300}
-            height={400}
-            className="rounded-lg object-cover"
-          />
-          <div className="mt-4">
-            <p className="text-gray-500 text-sm">01 — Spring Sale</p>
-            <p className="text-lg font-bold">30% OFF</p>
-          </div>
-        </div>
-        
-        {/* Card 2 */}
-        <div className="bg-gray-100 rounded-lg p-4 w-1/3 shadow-md">
-          <Image 
-            src="/image (2).png" 
-            alt="Spring Sale"
-            width={300}
-            height={400}
-            className="rounded-lg object-cover"
-          />
-          <div className="mt-4">
-            <p className="text-gray-500 text-sm">02 — Summer Sale</p>
-            <p className="text-lg font-bold">50% OFF</p>
-          </div>
-        </div>
-        
-        {/* Card 3 */}
-        <div className="bg-gray-100 rounded-lg p-4 w-1/3 shadow-md">
-          <Image 
-            src="/image (1).png" 
-            alt="Spring Sale"
-            width={300}
-            height={400}
-            className="rounded-lg object-cover"
-          />
-          <div className="mt-4">
-            <p className="text-gray-500 text-sm">03 — Fall Sale</p>
-            <p className="text-lg font-bold">40% OFF</p>
-          </div>
-        </div>
-        
-      </div>
-      
-      {/* Carousel Controls */}
-      <div className="flex justify-center mt-4 space-x-2">
-        <button className="p-2 bg-gray-300 rounded-full shadow-md">
-          <span>&lt;</span>
-        </button>
-        <button className="p-2 bg-gray-300 rounded-full shadow-md">
-          <span>&gt;</span>
-        </button>
-      </div>
-    </div>
-    
-  </div>
-</section>
+      </section>
 
 <section className="bg-white py-16">
   <div className="container mx-auto text-center">
