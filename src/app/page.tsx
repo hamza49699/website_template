@@ -166,10 +166,10 @@ export default function Home() {
 
     {/* Category Tabs */}
     <div className="flex justify-center space-x-4 mb-12">
-      <button className="py-2 px-4 bg-gray-100 text-black rounded-md">Men's Fashion</button>
-      <button className="py-2 px-4 bg-black text-white rounded-md">Women's Fashion</button>
-      <button className="py-2 px-4 bg-gray-100 text-black rounded-md">Women's Accessories</button>
-      <button className="py-2 px-4 bg-gray-100 text-black rounded-md">Men's Accessories</button>
+      <button className="py-2 px-4 bg-gray-100 text-black rounded-md">Mens Fashion</button>
+      <button className="py-2 px-4 bg-black text-white rounded-md">Womens Fashion</button>
+      <button className="py-2 px-4 bg-gray-100 text-black rounded-md">Womens Accessories</button>
+      <button className="py-2 px-4 bg-gray-100 text-black rounded-md">Mens Accessories</button>
       <button className="py-2 px-4 bg-gray-100 text-black rounded-md">Discount Deals</button>
     </div>
 
